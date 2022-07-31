@@ -20,15 +20,15 @@ import { Login } from "@mui/icons-material";
 
 const menus = [
   {
-    menu: "Home",
+    menu: "Beranda",
     page: "/",
   },
   {
-    menu: "Search",
+    menu: "Cari Resep",
     page: "/search",
   },
   {
-    menu: "About",
+    menu: "Tentang Situs",
     page: "/about",
   },
 ];
@@ -169,7 +169,7 @@ const Navbar = () => {
                 textDecoration: "none",
               }}
             >
-              Resepku
+              Resep Masakan Terkini
             </Typography>
             <Box
               sx={{

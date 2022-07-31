@@ -16,7 +16,7 @@ const Footer = () => {
           <Stack spacing={2} direction="row" alignItems="center">
             {" "}
             <EggAltOutlined />
-            <Typography variant="h6">Resepku</Typography>
+            <Typography variant="h6">Resep Makanan Harun Azis</Typography>
           </Stack>
 
           <Stack
@@ -27,7 +27,7 @@ const Footer = () => {
           >
             <Typography variant="body2">
               {" "}
-              © 2022 By Harun Azis
+              © 2022 By Harun Azis | 152235865101-565
             </Typography>
           </Stack>
         </Stack>

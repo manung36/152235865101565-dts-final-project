@@ -49,7 +49,7 @@ import {
           }}
         >
           <Typography variant="h4" fontWeight={600}>
-            For You
+            Resep spesial yang direkomendasikan untuk anda hari ini
           </Typography>
           <Button
             onClick={handleRefreshData}
@@ -62,7 +62,7 @@ import {
               paddingX: 5,
             }}
           >
-            Refresh
+            Acak Ulang
           </Button>
         </Stack>
         <Box
