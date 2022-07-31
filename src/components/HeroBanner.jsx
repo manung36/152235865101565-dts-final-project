@@ -19,7 +19,7 @@ import { useNavigate } from "react-router-dom";
 import { useAxios } from "../hooks/axioshook";
 
 const HeroBanner = () => {
-  const key = "resep-chicken-teriyaki";
+  const key = "resep-sup-tahu-bakso-ikan";
 
   const navigate = useNavigate();
   const { response, loading, error } = useAxios(`/recipe/${key}`);
@@ -51,9 +51,9 @@ const HeroBanner = () => {
         sx={{
           marginY: 5,
           boxShadow: "none",
-          background: "#E7FAFE",
-          borderRadius: "30px",
-          minHeight: "500px",
+          background: "#f3f9d2",
+          borderRadius: "66px",
+          minHeight: "480px",
           display: "flex",
         }}
       >
@@ -104,7 +104,7 @@ const HeroBanner = () => {
                   navigate(`recipes/${key}`);
                 }}
               >
-                View Recipes
+                Lihat Resep
               </Button>
             </Stack>
           </CardActions>
