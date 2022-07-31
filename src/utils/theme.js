@@ -3,21 +3,23 @@ import { createTheme, responsiveFontSizes } from "@mui/material/styles";
 const base = createTheme({
   palette: {
     primary: {
-      main: "#000000",
+      main: "#ff5154",
+      
     },
     secondary: {
-      main: "#E7FAFE",
+      main: "#91a6ff",
+      
     },
   },
   typography: {
     fontFamily: '"Inter", sans-serif',
     button: {
-      fontWeight: 600,
+      fontWeight: 666,
     },
   },
 
   shape: {
-    borderRadius: 16,
+    borderRadius: 36,
   },
   props: {
     MuiAppBar: {
