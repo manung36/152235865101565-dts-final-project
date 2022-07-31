@@ -18,27 +18,31 @@ const About = () => {
         >
           <Stack spacing={1}>
             <Typography>
-              <strong>Resepku</strong> merupakan project yang dikembangkan dalam
-              rangka memenuhi syarat kelulusan course react js yang diadakan
-              oleh Kominfo yaitu{" "}
-              <Link href="https://digitalent.kominfo.go.id/">digitalent</Link>.
-              Mohon do'a kawan-kawan agar saya bisa lulus course ini ya 😁.
+              <strong>Resep Makanan Harun Azis | 152235865101-565</strong> adalah React JS Project yang dikembangkan dalam
+              rangka memenuhi tugas akhir Pelatihan React JS Kelas B
+              DTS Kominfo yaitu{" "}
+              <Link href="https://digitalent.kominfo.go.id/">Digitalent Kominfo 2022</Link>.
+              
             </Typography>
             <Typography>
-              Kunjungi github kami di{" "}
-              <Link href="https://github.com/dwiki1968">@dwiki1968</Link>
+              Akun Github saya:{" "}
+              <Link href="https://github.com/manung36">Harun Azis @manung36</Link>
             </Typography>
             <Typography>
-              <strong>Special Thanks to 😘: </strong>
+              <strong>Ucapan Terima Kasih saya sampaikan sebesar-besarnya kepada: </strong>
             </Typography>
             <Typography>
-              API Provider --{" "}
+              Mentor paling gokil React JS kelas B DTS Kominfo:{" "}
+              <Link href="https://github.com/depimomo">Monica Devi</Link>
+            </Typography>
+            <Typography>
+              API Resep Makanan:{" "}
               <Link href="https://github.com/tomorisakura/unofficial-masakapahariini-api">
                 @tomorisakura
               </Link>
             </Typography>
             <Typography>
-              UI Design Provider --{" "}
+              UI Design Provider:{" "}
               <Link href="https://www.flowbase.co/">flowbase.co</Link>
             </Typography>
           </Stack>

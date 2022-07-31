@@ -10,9 +10,11 @@ const Profile = () => {
           paddingY: 5,
         }}
       >
-        <Typography variant="h3">Maaf,</Typography>
+        <Typography variant="h3">Profil Akun:</Typography>
         <Typography variant="body">
-          Halaman ini masih dalam pengembangan. 🔨
+          Nama: Harun Azis <br></br>
+          Kelas: B, React JS DTS Kominfo <br></br>
+          No Registrasi: 152235865101-565
         </Typography>
       </Container>
     </>

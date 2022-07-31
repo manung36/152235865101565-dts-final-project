@@ -18,7 +18,7 @@ export default function NotFound() {
       <ContentStyle sx={{ textAlign: "center", alignItems: "center" }}>
         <Stack spacing={2} alignItems="center">
           <Typography variant="h3" paragraph>
-            Sorry, page not found!
+            Mohon Maaf, Halaman tidak ditemukan!
           </Typography>
 
           <Typography>

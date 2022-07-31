@@ -70,9 +70,9 @@ const RecipeDetail = () => {
           <Box>
             <IconButton
               sx={{
-                height: "80px",
-                width: "80px",
-                background: "#E7FAFE",
+                height: "66px",
+                width: "66px",
+                background: "#ff88dc",
               }}
             >
               <PrintOutlined />
@@ -84,7 +84,7 @@ const RecipeDetail = () => {
               fontWeight={500}
               fontSize="14px"
             >
-              PRINT
+              Cetak
             </Typography>
           </Box>
         </Stack>
@@ -157,7 +157,7 @@ const RecipeDetail = () => {
                     marginBottom: 2,
                   }}
                 >
-                  Ingredient
+                  Bahan-bahan:
                 </Typography>
                 <ListForDetailRecipe data={ingredient} />
               </Box>
@@ -175,7 +175,7 @@ const RecipeDetail = () => {
                     marginBottom: 2,
                   }}
                 >
-                  Directions
+                  Cara Masak:
                 </Typography>
                 <ListForDetailRecipe data={step} />
               </Box>
@@ -189,7 +189,7 @@ const RecipeDetail = () => {
                 marginBottom: 3,
               }}
             >
-              Other Recipe
+              Resep Lainnya:
             </Typography>
             <OtherRecipes />
           </Grid>
