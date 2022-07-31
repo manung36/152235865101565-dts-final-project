@@ -1,4 +1,4 @@
-import { EggAltOutlined } from "@mui/icons-material";
+import SoupKitchenOutlinedIcon from '@mui/icons-material/SoupKitchenOutlined';
 import { Stack, Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import React from "react";
@@ -15,7 +15,7 @@ const Footer = () => {
         <Stack spacing={2}>
           <Stack spacing={2} direction="row" alignItems="center">
             {" "}
-            <EggAltOutlined />
+            <SoupKitchenOutlinedIcon />
             <Typography variant="h6">Resep Makanan Harun Azis</Typography>
           </Stack>
 

@@ -1,4 +1,4 @@
-import EggAltOutlinedIcon from "@mui/icons-material/EggAltOutlined";
+import SoupKitchenOutlinedIcon from '@mui/icons-material/SoupKitchenOutlined';
 import MenuIcon from "@mui/icons-material/Menu";
 import AppBar from "@mui/material/AppBar";
 import Avatar from "@mui/material/Avatar";
@@ -86,7 +86,7 @@ const Navbar = () => {
       >
         <Container>
           <Toolbar disableGutters>
-            <EggAltOutlinedIcon
+            <SoupKitchenOutlinedIcon
               sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
             />
             <Typography
@@ -104,7 +104,7 @@ const Navbar = () => {
                 textTransform: "none",
               }}
             >
-              Resepku
+              Resep Harun Azis
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -149,7 +149,7 @@ const Navbar = () => {
                 ))}
               </Menu>
             </Box>
-            <EggAltOutlinedIcon
+            <SoupKitchenOutlinedIcon
               sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
             />
             <Typography

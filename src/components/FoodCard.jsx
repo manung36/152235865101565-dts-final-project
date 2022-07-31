@@ -23,7 +23,7 @@ const FoodCard = ({ data }) => {
 
           boxShadow: "none",
           background:
-            "linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%)",
+            "linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #f3f9d2 100%)",
           borderRadius: "30px",
           marginBottom: 2,
         }}
